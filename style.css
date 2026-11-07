@@ -2,13 +2,13 @@
 * { box-sizing: border-box; }
 body {
   margin: 0; padding: 0 1rem 3rem;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 1.125rem; line-height: 1.75; color: #1a1a1a; background: #fdfcf9;
 }
 main, .site-head, .page-nav, .license { max-width: 720px; margin-left: auto; margin-right: auto; }
 .site-head {
   display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
-  padding: 1rem 0; border-bottom: 1px solid #ddd; font-family: system-ui, sans-serif; font-size: .95rem;
+  padding: 1rem 0; border-bottom: 1px solid #ddd; font-family: "Noto Sans", system-ui, sans-serif; font-size: .95rem;
 }
 .site-name { font-weight: 700; text-decoration: none; color: #1a1a1a; }
 .site-head nav a { color: #555; }
@@ -33,7 +33,7 @@ pre code { background: none; padding: 0; }
 .notice { background: #fdf3e0; border: 1px solid #e8cf9a; border-radius: 8px; padding: .8rem 1rem; }
 .downloads { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1.4rem 0; }
 .btn {
-  font-family: system-ui, sans-serif; font-size: 1rem; text-decoration: none;
+  font-family: "Noto Sans", system-ui, sans-serif; font-size: 1rem; text-decoration: none;
   background: #0b5394; color: #fff; padding: .6rem 1rem; border-radius: 8px;
 }
 .btn:hover { background: #083c6a; }
@@ -41,8 +41,8 @@ pre code { background: none; padding: 0; }
 .toc li { margin: .3rem 0; }
 .toc .count { color: #777; font-size: .92em; }
 .credits { font-size: 1rem; }
-.page-nav { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #ddd; font-family: system-ui, sans-serif; font-size: .95rem; display: flex; flex-wrap: wrap; gap: .4rem 1rem; justify-content: space-between; }
-.license { margin-top: 1.5rem; color: #666; font-size: .85rem; font-family: system-ui, sans-serif; }
+.page-nav { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #ddd; font-family: "Noto Sans", system-ui, sans-serif; font-size: .95rem; display: flex; flex-wrap: wrap; gap: .4rem 1rem; justify-content: space-between; }
+.license { margin-top: 1.5rem; color: #666; font-size: .85rem; font-family: "Noto Sans", system-ui, sans-serif; }
 @media (max-width: 560px) {
   body { font-size: 1.05rem; }
   h1 { font-size: 1.55rem; }
